@@ -9,7 +9,7 @@ frontend/build/
 frontend/dist/
 
 # Ignore backend dependencies
-backend/venv/
+backend/myenv/
 backend/__pycache__/
 backend/*.pyc
 
