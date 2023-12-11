@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {useDispatch} from 'react-redux';
 import { addTodo } from '../../feature/todo/todoSlice';
-import './MovieCards.scss'
+import Button from '@mui/material/Button'
 const MovieCards = () => {
     const [input ,setInput]  = useState('')
     const dispatch = useDispatch()
@@ -20,8 +20,7 @@ const MovieCards = () => {
             onChange={(e)=>{setInput(e.target.value)}}
             placeholder='enter the to do'
             />
-               <button type  = 'submit'>
-                add todo</button> 
+               <Button type='submit' variant='contained' color='primary'>Add</Button>
            
         </form>
         </div>

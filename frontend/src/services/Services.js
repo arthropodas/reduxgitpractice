@@ -9,3 +9,9 @@ return response
 getAllPost();
 
 export default getAllPost
+
+
+const login = async(formData)=>{
+    const response = await axios.post('/login')
+
+}

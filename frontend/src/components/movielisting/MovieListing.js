@@ -19,12 +19,21 @@ console.log('called')
 
     return (
         <>
-        <div id='movie-listing'>ddd
+        <div>
             
-             ({post.map((todo) => (
+             {post.map((todo) => (
                 <div key={todo.text}>{todo.title}</div>
-            ))})
-            dfssfsfssfsfss
+            ))}
+           ({
+            todos.map((todo) => (
+<div>
+    {todo.text}
+</div>
+
+            ))
+           })
+
+
         </div>
         <button onClick={handleButton}>call</button>
         </>

@@ -16,13 +16,13 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <div className="flex flex-col h-screen">
+     
         <Header />
-        <div className="bg-red-400 mt-14 h-screen ">
+        
             <App />
-        </div>
+       
         <Footer />
-      </div>
+      
     </Provider>
   </React.StrictMode>
 );

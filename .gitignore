@@ -5,3 +5,9 @@ frontend/node_modules
 /frontend/node_modules/
 frontend/node_modules
 /backend/usermanagement/migrations/
+/backend/usermanagement/migrations/__pycache__
+
+
+/backend/myenv
+/backend/myenv/
+/backend/myproject/myproject/__pycache__

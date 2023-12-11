@@ -1,5 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom';
-
+import Login from '../components/login/Login'
 
 import MovieCards from '../components/moviecards/MovieCards';
 import MovieListing from '../components/movielisting/MovieListing';
@@ -10,12 +10,16 @@ const routes = [
     element: <MovieCards />
   },
   {
-    path: '/moviecards',
+    path: '/',
     element: <MovieCards />
   },
   {
-    path:'/list/',
+    path:'/',
     element: <MovieListing/>
+  },
+  {
+    path:'/login/',
+    element: <Login/>
   }
 ];
 
